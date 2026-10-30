@@ -26,7 +26,3 @@ A university project: a small two-page website for a coffee shop, built with **H
 ## Notes
 
 The order form is a front-end design only and does not send or store data.
-
-## My Contribution
-
-This is a university project that I built myself.
