@@ -5,21 +5,23 @@ font-family: Verdana, Arial, sans-serif;
 }
 
 header {
-background-color: #ccaa66; 
-text-align: left; 
-height: 100px; 
-padding-left:10px;
+margin-left: 250px;
+height: 170px;
+background-color: #c9a96e;
+border-bottom: 25px solid #221811;
+text-align: center;
+padding-left: 0;
 }
 
 nav {
 float: left;
-width: 200px;
-min-height: 600px;
-background-color: #221811;
-text-align: left;
+width: 250px;
+min-height: 1000px;
+background: #221811 url("javajamlogo.jpg") no-repeat 35px 15px;
+background-size: 180px 150px;
+padding-top: 215px;
+text-align: center;
 font-weight: bold;
-font-size: 1em;
-padding-top: 10px;
 }
 
 nav a {
@@ -30,7 +32,7 @@ margin-bottom: 5px;
 
 nav ul{
 list-style-type: none;
-padding-left: 20px;
+padding: 0px;
 }
 
 footer {
@@ -46,43 +48,45 @@ clear: both;
 }
 
 #wrapper {
-margin-right: auto; 
-margin-left: auto; 
-background-color: #FEF6C2; 
-min-width: 900px; 
-max-width: 1280px; 
+background-color: #f0e8b9;
+min-width: 900px;
+max-width: 1280px;
+margin: 0 auto;
 box-shadow: 3px 3px 5px gray;
 }
 
-h2 {
-background-color: #D2B48C; 
-font-size: 1.2em; 
-padding-left: 10px; 
+h2 { 
+background-color: #D2B48C;
+font-size: 1.2em;
+padding-left: 10px;
 padding-bottom: 5px;
 }
 
+.heading {
+background-color: #c9ae8a;
+font-size: 1.2em;
+padding: 8px 10px;
+}
+
 main {
-margin-left: 200px;
-padding-left: 2em; 
-padding-bottom: 2em; 
-padding-right: 2em;
+margin-left: 250px;
+padding: 1em 1.5em 2em 1.5em;
 overflow: auto;
 }
 
-img {
+img { 
 float: right;
-margin-left: 20px;
+margin-left: 20px; 
 }
 
 h1 {
-background-image: url("javajamlogo.jpg");
-background-repeat: no-repeat;
-background-position: 0px 5px;
-background-size: 90px 90px;
-padding-left: 120px;
-padding-top: 30px;
-padding-bottom: 40px;
+background-image: none;
+padding: 45px 0 0 0;
 margin: 0;
+font-family: Papyrus, Copperplate, fantasy;
+font-size: 3.2em;
+color: #b8924a;
+text-shadow: 2px 2px 3px #221811;
 }
 
 .floatleft {
@@ -130,11 +134,4 @@ padding: 10px;
 label {
 display: inline-block;
 width: 110px;
-}
-
-.heading {
-background-color: #D2B48C;
-font-size: 1.2em;
-padding-left: 10px;
-padding-bottom: 5px;
 }
