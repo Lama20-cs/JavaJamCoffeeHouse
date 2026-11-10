@@ -3,29 +3,36 @@
 
 <head>  
 <title>JavaJam Coffee House</title>  
-<meta charset="utf-8">  
-<link rel="stylesheet" href="style.css">
+<meta charset="utf-8"> 
+<link rel="stylesheet" href="javajam.css">
+<script src="CoffeeScript.js"></script>
 </head>  
 
 <body>  
-<header>
+<div id="wrapper">
 
-<h1 align="left">JavaJam Coffee House</h1>
-
-</header>
 <nav>
 
-<a href="index.html"><b>Home</b></a>
-&nbsp;
-<a href="menu.html"><b>Menu</b></a>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+</ul>
 
 </nav>
+<header>
+
+<h1>Java Coffee House</h1>
+
+</header>
 <main>
 
-<h2 align="left">Follow The Winding Road to JavaJam</h2>
-<p align="left">We're a little out of the way, but take a drive down Route 42 to JavaJam today! Indulge in our locally roasted free-trade coffee and home-made pastries. You'll feel right at home at JavaJam!</p>
+<img src="Windingroad.jpg" alt="Winding Road" height="300" width="300">
 
-<h3 align="left">JavaJam Coffee House features:</h3>
+<h2>Follow The Winding Road to JavaJam</h2>
+
+<p align="left">We're a little out of the way, but take a drive down Route 42 to JavaJam today!<br>Indulge in our locally roasted free-trade coffee and home-made pastries. You'll feel right at home at JavaJam!</p>
+
+<h3 class="heading">JavaJam Coffee House features:</h3>
 
 <ul>
 <li>Specialty Coffee and Tea</li>
@@ -36,14 +43,31 @@
 
 <div>
 
-<p align="left">54321 Route 42<br>Ellison Bay, WI 54210<br>888-555-5555</p>
+<p>12312 Main Street<br>Mountain Home, CA 93923<br>1-888-555-5555</p>
 
 </div>
+<div>
+
+<h3>Location Finder</h3>
+
+<button type="button" onclick="getLocation()">click here</button>
+
+<p id="locationInfo">Your location will appear here.</p>
+
+</div>
+
 </main>
 <footer>
 
-<p align="left"><small><i>Copyright &copy; 2023 JavaJam Coffee House</i></small></p>
+<p>Copyright &copy; 2023 JavaJam Coffee House</p>
+
+<div>
+<script>
+document.write("This page was last modified on: " + document.lastModified);
+</script>
+</div>
 
 </footer>
+</div>
 </body>  
-</html> 
+</html>
